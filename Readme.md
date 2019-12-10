@@ -16,8 +16,11 @@ hinagata.texの名前は使用の際には変更して構わない。以下で�
 ・各SQM1TEA#_#.texは、以下のように記述すること：
 
 \begin{subsection}{}
+
 （解答を記述）
+
 \end{subsection}
+
 \setcounter{equation}{0}
 
 　一行目の末尾{}を忘れるとErrorを吐く。最後の行の命令がないと式番号が小問を超えて加算される。
