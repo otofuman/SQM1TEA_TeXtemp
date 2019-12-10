@@ -1,0 +1,58 @@
+%%%%%%%%%%文書の構成、使用パッケージ宣言
+\documentclass[
+  11pt,
+  a4paper,
+  ]{jsreport}
+\usepackage{SQM1TEAcom191208}
+
+%%%%%%%%%%タイトルと著者：表紙に表示される
+\title{タイトル}
+\author{所属　学生番号　氏名}
+
+%%%%%%%%%%文書
+%%%%%　\input{SQM1TEA[大問番号]_[小問番号]}は各大問の各小問の
+%%%%%　解答ファイル「SQM1TEA[大問番号]_[小問番号].tex」の取り込みを命令します。
+%%%%%　別途{subsection}環境内に解答を記述した上記名のファイルを用意してください。
+%%%%%　また各\input{}の行頭の%は存在しないファイルを読まないためのものです。
+%%%%%　ファイルを作成したら、行頭の%を削除してください。
+%%%%%%%%%%
+
+\begin{document}
+  \maketitle%%%%%%%%%%表紙
+  \clearpage%%%%%%%%%%改ページ
+  \begin{section}{}%%%%%%%%%%大問[1]
+    %\input{SQM1TEA1_1}
+    %\input{SQM1TEA1_2}
+    %\input{SQM1TEA1_3}
+    %\input{SQM1TEA1_4}
+    %\input{SQM1TEA1_5}
+    %\input{SQM1TEA1_6}
+  \end{section}
+  \setcounter{subsection}{0}%%%%%%%%%%小節カウンタのリセット
+  \begin{section}{}%%%%%%%%%%大問[2]
+    %\input{SQM1TEA2_1}
+    %\input{SQM1TEA2_2}
+    %\input{SQM1TEA2_3}
+    %\input{SQM1TEA2_4}
+    %\input{SQM1TEA2_5}
+    %\input{SQM1TEA2_6}
+    %\input{SQM1TEA2_7}
+  \end{section}
+  \setcounter{subsection}{0}%%%%%%%%%%小節カウンタのリセット
+  \begin{section}{}%%%%%%%%%%大問[3]
+    %\input{SQM1TEA3_1}
+    %\input{SQM1TEA3_2}
+    %\input{SQM1TEA3_3}
+    %\input{SQM1TEA3_4}
+    %\input{SQM1TEA3_5}
+  \end{section}
+  \setcounter{subsection}{0}%%%%%%%%%%小節カウンタのリセット
+  \begin{section}{}%%%%%%%%%%大問[4]
+    %\input{SQM1TEA4_1}
+    %\input{SQM1TEA4_2}
+    %\input{SQM1TEA4_3}
+    %\input{SQM1TEA4_4}
+    %\input{SQM1TEA4_5}
+    %\input{SQM1TEA4_6}
+  \end{section}
+\end{document}
