@@ -1,4 +1,4 @@
-# okarabox
+# テンプレの使い方
 
 hinagata.texとSQM1TEAcom######.styは、量子力学演習Ⅰ期末レポート用のTeXテンプレです。
 hinagata.texの名前は使用の際には変更して構いません。以下では該当ファイルをhinagata.texと呼んでいます。
