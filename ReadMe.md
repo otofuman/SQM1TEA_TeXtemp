@@ -1,4 +1,4 @@
-The Template for Submitting SQM1 Term-end Assignment with (La)TeX
+A Template for Submitting SQM1 Term-end Assignment with (La)TeX
 ==
 
 hinagata.texの名前は使用の際には変更して構わない。以下では該当ファイルをhinagata.texと呼ぶ。
