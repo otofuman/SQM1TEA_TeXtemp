@@ -1,0 +1,59 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%使用パッケージの宣言
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{mathrsfs}
+\usepackage{otf}
+\usepackage{braket}
+\usepackage{bm}
+\usepackage{bbm}
+\usepackage{physics}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%各種(再)定義
+\makeatletter%%%@の扱いを変更
+\def\thesection{\fbox{\arabic{section}}}
+%%%%%節番号を大問番号表示(四角で囲む)に変更
+\def\thesubsection{{\normalsize (\arabic{subsection})}}
+%%%%%小節番号を小問表示、サイズを本文と同じに変更
+\def\theequation{\arabic{section}.\arabic{subsection}.\arabic{equation}}
+%%%%%式番号を(大問番号.小問番号.式番号)に変更
+\def\subsection{\leftskip=2em\@startsection {subsection}{1}{\z@}{-3.5ex plus -1ex minus
+-.2ex}{2.3ex plus .2ex}{\normalsize}}
+%%%%%小問解答のインデントを設定
+\makeatother%%%@の扱いを変更(元に戻す)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%マクロ定義
+\newcommand{\LRA}{
+  \Longleftrightarrow
+}
+\newcommand{\bbm}[1]{
+  \mathbbm{#1}
+}
+\newcommand{\eq}[1]{
+  \[ {#1} \]
+}
+\newcommand{\eql}[2]{
+  \begin{equation}
+    {#1} \label{#2}
+  \end{equation}
+}
+\newcommand{\fr}[2]{
+  \frac{#1}{#2}
+}
+\newcommand{\perm}[2]{
+  {}_{#1} P _{#2}
+}
+\newcommand{\conb}[2]{
+  {}_{#1} C _{#2}
+}
+\newcommand{\case}[1]{
+  \left
+    \{
+    \begin{array}{l}
+      #1
+    \end{array}
+  \right.
+}
+\newcommand{\opedag}[1]{
+  \hat{#1}^{\dagger}
+}
