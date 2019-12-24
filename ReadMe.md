@@ -4,7 +4,7 @@ A Template for Submitting SQM1 Term-end Assignment with (La)TeX
 hinagata.texの名前は使用の際には変更して構わない。以下では該当ファイルをhinagata.texと呼ぶ。
 
 **更新内容：(最終更新　2019/12/24)**
-- 12/24　physics.styに対応
+- 12/24　Package「physics」に対応
 - 12/17　相対パス指定に対応
 - 12/11　公開
 
